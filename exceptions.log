@@ -1,0 +1,11 @@
+[2022-04-14 11:38:47] [ INFO ] [OdontologoService:64] El odontologocon id: 10 fue actualizadoo con exito
+[2022-04-14 11:45:03] [ INFO ] [OdontologoService:75] Se elimino con exito el odontologo
+[2022-04-14 19:45:25] [ INFO ] [DomicilioService:66] Se actualizo el domicilio con id: 6
+[2022-04-14 21:26:09] [ INFO ] [PacienteService:73] Se elimino con exito el paciente con id: 2
+[2022-04-14 21:28:29] [ ERROR] [PacienteService:49] Se produjo un error al guardar el paciente
+[2022-04-18 10:30:28] [ INFO ] [OdontologoService:73] Se elimino con exito el odontologo con id: 8
+[2022-04-18 10:30:30] [ INFO ] [OdontologoService:73] Se elimino con exito el odontologo con id: 7
+[2022-04-18 10:31:54] [ ERROR] [PacienteService:49] Se produjo un error al guardar el paciente
+[2022-04-18 22:38:38] [ ERROR] [PacienteService:49] Se produjo un error al guardar el paciente
+[2022-04-18 22:38:38] [ ERROR] [GlobalExceptions:22] No se pudo guardar el paciente por falta de datos
+[2022-04-19 11:26:32] [ ERROR] [GlobalExceptions:23] No se encontro el odontologo con el id indicado
