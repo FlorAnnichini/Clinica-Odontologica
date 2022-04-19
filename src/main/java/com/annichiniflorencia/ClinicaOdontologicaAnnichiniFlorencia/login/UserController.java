@@ -9,9 +9,11 @@ public class UserController {
 
     @GetMapping("/")
     public String home() {
-        return " <br>\n" +
-                "<h1>Bienvenidos a la Clinica Odontologica Annichini</h1>" +
-                "<a class=nav-link href=/index.html>Ingresar</a>";
+        return " <div style=\"background: linear-gradient(#B7CADB, #F3E9DD);\" >" +
+                "<br>\n" +
+                "<h1 style=\"font-family: Arial;\">Bienvenidos a la Clinica Odontologica Annichini</h1>" +
+                "<a class=nav-link href=/index.html style=\"font-family: Arial;\">        Ingresar</a>" +
+                "</div>";
 
     }
 
