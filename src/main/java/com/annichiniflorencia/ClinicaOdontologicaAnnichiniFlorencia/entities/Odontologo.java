@@ -8,7 +8,6 @@ import java.util.Set;
 
 @Entity
 @Table(name = "odontologo")
-@Getter
 
 public class Odontologo {
 
@@ -28,6 +27,26 @@ public class Odontologo {
     private Set<Turno> turnos = new HashSet<>();
 
     public Odontologo() {
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public Set<Turno> getTurnos() {
+        return turnos;
     }
 
     public void setId(Long id) {

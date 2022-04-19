@@ -9,7 +9,7 @@ import java.util.Set;
 
 @Entity
 @Table(name = "paciente")
-@Getter
+
 public class Paciente {
 
     @Id
@@ -37,6 +37,38 @@ public class Paciente {
     private Set<Turno> turnos=new HashSet<>();
 
     public Paciente() {
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getDni() {
+        return dni;
+    }
+
+    public LocalDate getFechaIngreso() {
+        return fechaIngreso;
+    }
+
+    public Domicilio getDomicilio() {
+        return domicilio;
+    }
+
+    public Set<Turno> getTurnos() {
+        return turnos;
     }
 
     public void setId(Long id) {
